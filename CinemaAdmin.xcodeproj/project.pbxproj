@@ -1,0 +1,388 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5C6EC1712D1BCAE400E7D767 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 5C6EC1702D1BCAE400E7D767 /* Base */; };
+		5C6EC1732D1BCAE600E7D767 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C6EC1722D1BCAE600E7D767 /* Assets.xcassets */; };
+		5C6EC1762D1BCAE600E7D767 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 5C6EC1752D1BCAE600E7D767 /* Base */; };
+		5C6EC1862D1BCB0700E7D767 /* MovieTicketCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C6EC17E2D1BCB0700E7D767 /* MovieTicketCell.swift */; };
+		5C6EC1892D1BCB0700E7D767 /* CinemaAdminViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C6EC1812D1BCB0700E7D767 /* CinemaAdminViewController.swift */; };
+		5C6EC18A2D1BCB0700E7D767 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C6EC1822D1BCB0700E7D767 /* Model.swift */; };
+		5C6EC18B2D1BCB0700E7D767 /* CinemaAdminViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C6EC1832D1BCB0700E7D767 /* CinemaAdminViewModel.swift */; };
+		5C6EC18E2D1BCE2000E7D767 /* GoogleSheetsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C6EC18D2D1BCE2000E7D767 /* GoogleSheetsService.swift */; };
+		5C6EC1912D1BD4D800E7D767 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C6EC18F2D1BD4D800E7D767 /* SceneDelegate.swift */; };
+		5C6EC1922D1BD4D800E7D767 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C6EC1902D1BD4D800E7D767 /* AppDelegate.swift */; };
+		5C6EC1942D1BD71D00E7D767 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C6EC1932D1BD71D00E7D767 /* NetworkService.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5C6EC1662D1BCAE400E7D767 /* CinemaAdmin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CinemaAdmin.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C6EC1702D1BCAE400E7D767 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5C6EC1722D1BCAE600E7D767 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5C6EC1752D1BCAE600E7D767 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5C6EC1772D1BCAE600E7D767 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5C6EC17E2D1BCB0700E7D767 /* MovieTicketCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieTicketCell.swift; sourceTree = "<group>"; };
+		5C6EC1812D1BCB0700E7D767 /* CinemaAdminViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CinemaAdminViewController.swift; sourceTree = "<group>"; };
+		5C6EC1822D1BCB0700E7D767 /* Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		5C6EC1832D1BCB0700E7D767 /* CinemaAdminViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CinemaAdminViewModel.swift; sourceTree = "<group>"; };
+		5C6EC18D2D1BCE2000E7D767 /* GoogleSheetsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleSheetsService.swift; sourceTree = "<group>"; };
+		5C6EC18F2D1BD4D800E7D767 /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		5C6EC1902D1BD4D800E7D767 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5C6EC1932D1BD71D00E7D767 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5C6EC1632D1BCAE400E7D767 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5C6EC15D2D1BCAE400E7D767 = {
+			isa = PBXGroup;
+			children = (
+				5C6EC1682D1BCAE400E7D767 /* CinemaAdmin */,
+				5C6EC1672D1BCAE400E7D767 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5C6EC1672D1BCAE400E7D767 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5C6EC1662D1BCAE400E7D767 /* CinemaAdmin.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5C6EC1682D1BCAE400E7D767 /* CinemaAdmin */ = {
+			isa = PBXGroup;
+			children = (
+				5C6EC16F2D1BCAE400E7D767 /* Main.storyboard */,
+				5C6EC1902D1BD4D800E7D767 /* AppDelegate.swift */,
+				5C6EC18F2D1BD4D800E7D767 /* SceneDelegate.swift */,
+				5C6EC1722D1BCAE600E7D767 /* Assets.xcassets */,
+				5C6EC1742D1BCAE600E7D767 /* LaunchScreen.storyboard */,
+				5C6EC1812D1BCB0700E7D767 /* CinemaAdminViewController.swift */,
+				5C6EC1832D1BCB0700E7D767 /* CinemaAdminViewModel.swift */,
+				5C6EC1822D1BCB0700E7D767 /* Model.swift */,
+				5C6EC17E2D1BCB0700E7D767 /* MovieTicketCell.swift */,
+				5C6EC18D2D1BCE2000E7D767 /* GoogleSheetsService.swift */,
+				5C6EC1932D1BD71D00E7D767 /* NetworkService.swift */,
+				5C6EC1772D1BCAE600E7D767 /* Info.plist */,
+			);
+			path = CinemaAdmin;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5C6EC1652D1BCAE400E7D767 /* CinemaAdmin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5C6EC17A2D1BCAE600E7D767 /* Build configuration list for PBXNativeTarget "CinemaAdmin" */;
+			buildPhases = (
+				5C6EC1622D1BCAE400E7D767 /* Sources */,
+				5C6EC1632D1BCAE400E7D767 /* Frameworks */,
+				5C6EC1642D1BCAE400E7D767 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CinemaAdmin;
+			productName = CinemaAdmin;
+			productReference = 5C6EC1662D1BCAE400E7D767 /* CinemaAdmin.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5C6EC15E2D1BCAE400E7D767 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					5C6EC1652D1BCAE400E7D767 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = 5C6EC1612D1BCAE400E7D767 /* Build configuration list for PBXProject "CinemaAdmin" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5C6EC15D2D1BCAE400E7D767;
+			productRefGroup = 5C6EC1672D1BCAE400E7D767 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5C6EC1652D1BCAE400E7D767 /* CinemaAdmin */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5C6EC1642D1BCAE400E7D767 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C6EC1732D1BCAE600E7D767 /* Assets.xcassets in Resources */,
+				5C6EC1762D1BCAE600E7D767 /* Base in Resources */,
+				5C6EC1712D1BCAE400E7D767 /* Base in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5C6EC1622D1BCAE400E7D767 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C6EC1862D1BCB0700E7D767 /* MovieTicketCell.swift in Sources */,
+				5C6EC18B2D1BCB0700E7D767 /* CinemaAdminViewModel.swift in Sources */,
+				5C6EC1942D1BD71D00E7D767 /* NetworkService.swift in Sources */,
+				5C6EC1922D1BD4D800E7D767 /* AppDelegate.swift in Sources */,
+				5C6EC18E2D1BCE2000E7D767 /* GoogleSheetsService.swift in Sources */,
+				5C6EC1892D1BCB0700E7D767 /* CinemaAdminViewController.swift in Sources */,
+				5C6EC18A2D1BCB0700E7D767 /* Model.swift in Sources */,
+				5C6EC1912D1BD4D800E7D767 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5C6EC16F2D1BCAE400E7D767 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5C6EC1702D1BCAE400E7D767 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5C6EC1742D1BCAE600E7D767 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5C6EC1752D1BCAE600E7D767 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5C6EC1782D1BCAE600E7D767 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5C6EC1792D1BCAE600E7D767 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5C6EC17B2D1BCAE600E7D767 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M2MF9LH58A;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CinemaAdmin/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Lydia.CinemaAdmin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5C6EC17C2D1BCAE600E7D767 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M2MF9LH58A;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CinemaAdmin/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Lydia.CinemaAdmin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5C6EC1612D1BCAE400E7D767 /* Build configuration list for PBXProject "CinemaAdmin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C6EC1782D1BCAE600E7D767 /* Debug */,
+				5C6EC1792D1BCAE600E7D767 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5C6EC17A2D1BCAE600E7D767 /* Build configuration list for PBXNativeTarget "CinemaAdmin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C6EC17B2D1BCAE600E7D767 /* Debug */,
+				5C6EC17C2D1BCAE600E7D767 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5C6EC15E2D1BCAE400E7D767 /* Project object */;
+}
