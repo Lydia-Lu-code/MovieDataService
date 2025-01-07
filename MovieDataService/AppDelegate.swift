@@ -19,7 +19,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             window = UIWindow(frame: UIScreen.main.bounds)
             
             // 使用 ticketService 初始化 CinemaAdminViewController
-            let cinemaAdminVC = CinemaAdminViewController(ticketService: ticketService)
+            let cinemaAdminVC = MovieDataServiceViewController(ticketService: ticketService)
             let navigationController = UINavigationController(rootViewController: cinemaAdminVC)
             window?.rootViewController = navigationController
             window?.makeKeyAndVisible()

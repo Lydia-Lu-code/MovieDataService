@@ -16,8 +16,8 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         
         let window = UIWindow(windowScene: windowScene)
         let service = GoogleSheetsService() // 創建服務
-        let viewModel = CinemaAdminViewModel(ticketService: service) // 創建 ViewModel
-        let cinemaAdminVC = CinemaAdminViewController(ticketService: service) // 使用服務創建 VC
+        let viewModel = MovieDataServiceViewModel(ticketService: service) // 創建 ViewModel
+        let cinemaAdminVC = MovieDataServiceViewController(ticketService: service) // 使用服務創建 VC
         let navigationController = UINavigationController(rootViewController: cinemaAdminVC)
         
         window.rootViewController = navigationController

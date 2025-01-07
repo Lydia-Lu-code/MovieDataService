@@ -1,7 +1,7 @@
 import Foundation
 import Combine
 
-class CinemaAdminViewModel {
+class MovieDataServiceViewModel {
     // MARK: - Types
     struct MovieSection: Equatable {
         let movieName: String

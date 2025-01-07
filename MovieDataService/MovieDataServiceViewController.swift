@@ -1,15 +1,15 @@
 import UIKit
 import Combine
 
-class CinemaAdminViewController: UITableViewController {
+class MovieDataServiceViewController: UITableViewController {
     // MARK: - Properties
-    private let viewModel: CinemaAdminViewModel
+    private let viewModel: MovieDataServiceViewModel
     private let activityIndicator = UIActivityIndicatorView(style: .large)
     private var cancellables = Set<AnyCancellable>()
     
     // MARK: - Initialization
     init(ticketService: MovieTicketServiceProtocol) {
-        self.viewModel = CinemaAdminViewModel(ticketService: ticketService)
+        self.viewModel = MovieDataServiceViewModel(ticketService: ticketService)
         super.init(style: .plain)
         tableView.register(MovieTicketCell.self, forCellReuseIdentifier: "MovieTicketCell")
     }

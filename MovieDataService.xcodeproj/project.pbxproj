@@ -11,9 +11,9 @@
 		5C6EC1732D1BCAE600E7D767 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C6EC1722D1BCAE600E7D767 /* Assets.xcassets */; };
 		5C6EC1762D1BCAE600E7D767 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 5C6EC1752D1BCAE600E7D767 /* Base */; };
 		5C6EC1862D1BCB0700E7D767 /* MovieTicketCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C6EC17E2D1BCB0700E7D767 /* MovieTicketCell.swift */; };
-		5C6EC1892D1BCB0700E7D767 /* CinemaAdminViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C6EC1812D1BCB0700E7D767 /* CinemaAdminViewController.swift */; };
+		5C6EC1892D1BCB0700E7D767 /* MovieDataServiceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C6EC1812D1BCB0700E7D767 /* MovieDataServiceViewController.swift */; };
 		5C6EC18A2D1BCB0700E7D767 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C6EC1822D1BCB0700E7D767 /* Model.swift */; };
-		5C6EC18B2D1BCB0700E7D767 /* CinemaAdminViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C6EC1832D1BCB0700E7D767 /* CinemaAdminViewModel.swift */; };
+		5C6EC18B2D1BCB0700E7D767 /* MovieDataServiceViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C6EC1832D1BCB0700E7D767 /* MovieDataServiceViewModel.swift */; };
 		5C6EC18E2D1BCE2000E7D767 /* GoogleSheetsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C6EC18D2D1BCE2000E7D767 /* GoogleSheetsService.swift */; };
 		5C6EC1912D1BD4D800E7D767 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C6EC18F2D1BD4D800E7D767 /* SceneDelegate.swift */; };
 		5C6EC1922D1BD4D800E7D767 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C6EC1902D1BD4D800E7D767 /* AppDelegate.swift */; };
@@ -21,15 +21,15 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		5C6EC1662D1BCAE400E7D767 /* CinemaAdmin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CinemaAdmin.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C6EC1662D1BCAE400E7D767 /* MovieDataService.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MovieDataService.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C6EC1702D1BCAE400E7D767 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5C6EC1722D1BCAE600E7D767 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5C6EC1752D1BCAE600E7D767 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5C6EC1772D1BCAE600E7D767 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5C6EC17E2D1BCB0700E7D767 /* MovieTicketCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieTicketCell.swift; sourceTree = "<group>"; };
-		5C6EC1812D1BCB0700E7D767 /* CinemaAdminViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CinemaAdminViewController.swift; sourceTree = "<group>"; };
+		5C6EC1812D1BCB0700E7D767 /* MovieDataServiceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieDataServiceViewController.swift; sourceTree = "<group>"; };
 		5C6EC1822D1BCB0700E7D767 /* Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
-		5C6EC1832D1BCB0700E7D767 /* CinemaAdminViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CinemaAdminViewModel.swift; sourceTree = "<group>"; };
+		5C6EC1832D1BCB0700E7D767 /* MovieDataServiceViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieDataServiceViewModel.swift; sourceTree = "<group>"; };
 		5C6EC18D2D1BCE2000E7D767 /* GoogleSheetsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleSheetsService.swift; sourceTree = "<group>"; };
 		5C6EC18F2D1BD4D800E7D767 /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		5C6EC1902D1BD4D800E7D767 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -50,7 +50,7 @@
 		5C6EC15D2D1BCAE400E7D767 = {
 			isa = PBXGroup;
 			children = (
-				5C6EC1682D1BCAE400E7D767 /* CinemaAdmin */,
+				5C6EC1682D1BCAE400E7D767 /* MovieDataService */,
 				5C6EC1672D1BCAE400E7D767 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -58,12 +58,12 @@
 		5C6EC1672D1BCAE400E7D767 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5C6EC1662D1BCAE400E7D767 /* CinemaAdmin.app */,
+				5C6EC1662D1BCAE400E7D767 /* MovieDataService.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		5C6EC1682D1BCAE400E7D767 /* CinemaAdmin */ = {
+		5C6EC1682D1BCAE400E7D767 /* MovieDataService */ = {
 			isa = PBXGroup;
 			children = (
 				5C6EC16F2D1BCAE400E7D767 /* Main.storyboard */,
@@ -71,23 +71,23 @@
 				5C6EC18F2D1BD4D800E7D767 /* SceneDelegate.swift */,
 				5C6EC1722D1BCAE600E7D767 /* Assets.xcassets */,
 				5C6EC1742D1BCAE600E7D767 /* LaunchScreen.storyboard */,
-				5C6EC1812D1BCB0700E7D767 /* CinemaAdminViewController.swift */,
-				5C6EC1832D1BCB0700E7D767 /* CinemaAdminViewModel.swift */,
+				5C6EC1812D1BCB0700E7D767 /* MovieDataServiceViewController.swift */,
+				5C6EC1832D1BCB0700E7D767 /* MovieDataServiceViewModel.swift */,
 				5C6EC1822D1BCB0700E7D767 /* Model.swift */,
 				5C6EC17E2D1BCB0700E7D767 /* MovieTicketCell.swift */,
 				5C6EC18D2D1BCE2000E7D767 /* GoogleSheetsService.swift */,
 				5C6EC1932D1BD71D00E7D767 /* NetworkService.swift */,
 				5C6EC1772D1BCAE600E7D767 /* Info.plist */,
 			);
-			path = CinemaAdmin;
+			path = MovieDataService;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		5C6EC1652D1BCAE400E7D767 /* CinemaAdmin */ = {
+		5C6EC1652D1BCAE400E7D767 /* MovieDataService */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5C6EC17A2D1BCAE600E7D767 /* Build configuration list for PBXNativeTarget "CinemaAdmin" */;
+			buildConfigurationList = 5C6EC17A2D1BCAE600E7D767 /* Build configuration list for PBXNativeTarget "MovieDataService" */;
 			buildPhases = (
 				5C6EC1622D1BCAE400E7D767 /* Sources */,
 				5C6EC1632D1BCAE400E7D767 /* Frameworks */,
@@ -97,9 +97,9 @@
 			);
 			dependencies = (
 			);
-			name = CinemaAdmin;
+			name = MovieDataService;
 			productName = CinemaAdmin;
-			productReference = 5C6EC1662D1BCAE400E7D767 /* CinemaAdmin.app */;
+			productReference = 5C6EC1662D1BCAE400E7D767 /* MovieDataService.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -117,7 +117,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 5C6EC1612D1BCAE400E7D767 /* Build configuration list for PBXProject "CinemaAdmin" */;
+			buildConfigurationList = 5C6EC1612D1BCAE400E7D767 /* Build configuration list for PBXProject "MovieDataService" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -130,7 +130,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				5C6EC1652D1BCAE400E7D767 /* CinemaAdmin */,
+				5C6EC1652D1BCAE400E7D767 /* MovieDataService */,
 			);
 		};
 /* End PBXProject section */
@@ -154,11 +154,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				5C6EC1862D1BCB0700E7D767 /* MovieTicketCell.swift in Sources */,
-				5C6EC18B2D1BCB0700E7D767 /* CinemaAdminViewModel.swift in Sources */,
+				5C6EC18B2D1BCB0700E7D767 /* MovieDataServiceViewModel.swift in Sources */,
 				5C6EC1942D1BD71D00E7D767 /* NetworkService.swift in Sources */,
 				5C6EC1922D1BD4D800E7D767 /* AppDelegate.swift in Sources */,
 				5C6EC18E2D1BCE2000E7D767 /* GoogleSheetsService.swift in Sources */,
-				5C6EC1892D1BCB0700E7D767 /* CinemaAdminViewController.swift in Sources */,
+				5C6EC1892D1BCB0700E7D767 /* MovieDataServiceViewController.swift in Sources */,
 				5C6EC18A2D1BCB0700E7D767 /* Model.swift in Sources */,
 				5C6EC1912D1BD4D800E7D767 /* SceneDelegate.swift in Sources */,
 			);
@@ -314,7 +314,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = M2MF9LH58A;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = CinemaAdmin/Info.plist;
+				INFOPLIST_FILE = MovieDataService/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -342,7 +342,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = M2MF9LH58A;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = CinemaAdmin/Info.plist;
+				INFOPLIST_FILE = MovieDataService/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -364,7 +364,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		5C6EC1612D1BCAE400E7D767 /* Build configuration list for PBXProject "CinemaAdmin" */ = {
+		5C6EC1612D1BCAE400E7D767 /* Build configuration list for PBXProject "MovieDataService" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5C6EC1782D1BCAE600E7D767 /* Debug */,
@@ -373,7 +373,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5C6EC17A2D1BCAE600E7D767 /* Build configuration list for PBXNativeTarget "CinemaAdmin" */ = {
+		5C6EC17A2D1BCAE600E7D767 /* Build configuration list for PBXNativeTarget "MovieDataService" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5C6EC17B2D1BCAE600E7D767 /* Debug */,
